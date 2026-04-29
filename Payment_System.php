@@ -24,7 +24,7 @@ function payment(){
         <br><br>
         <input type="hidden" name="payment_page_id" value="<?php echo get_the_ID();?>">
         <input type="hidden" id="payment_id" name="payment_id">
-        <button type="button" id="pay_btn">Pay 500</button>
+        <button type="submit" id="pay_btn">Pay 500</button>
         <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
         <script src="<?php echo plugin_dir_url(__FILE__) . 'Payment.js'; ?>"></script>
     </form>
