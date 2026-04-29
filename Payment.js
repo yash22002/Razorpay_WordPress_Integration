@@ -1,5 +1,5 @@
-document.getElementById('pay_btn').onclick = function(e){
-
+document.getElementById('pay_btn').onsubmit = function(e){
+e.preventDefault();
     var options = {
         "key": "Your Key ID", // Enter the Key ID generated from the Dashboard
         "amount": "50000", // Amount is in currency subunits. 
