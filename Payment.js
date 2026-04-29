@@ -1,7 +1,7 @@
 document.getElementById('pay_btn').onclick = function(e){
 
     var options = {
-        "key": "rzp_test_Siwsyj4dUhxN1n", // Enter the Key ID generated from the Dashboard
+        "key": "Your Key ID", // Enter the Key ID generated from the Dashboard
         "amount": "50000", // Amount is in currency subunits. 
         "currency": "INR",
         "name": "Wordpress-Payment-Gateway", //your business name
