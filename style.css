@@ -1,0 +1,24 @@
+.wp-block-post-title{
+        text-align: center;
+        color: blanchedalmond;
+}
+form{
+    border: 1px solid red;
+    text-align: center;
+    background: #6c69c7;
+    font-size: large;
+    padding: 24px 0px;
+    width: 33%;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+input{
+        width: 38%;
+        padding: 5px 8px;
+        border-radius: 10px;
+        background: #13121263;
+}
+button{
+        padding: 10px 22px;
+        background: currentColor;
+}
